@@ -1,0 +1,275 @@
+{
+    "projects": [
+        {
+            "title": "Smart Prescription Device Capstone",
+            "tags": [
+                "Programming",
+                "Prototyping",
+                "Research",
+                "UI/UX",
+                "Writing",
+                "C/C++",
+                "Python",
+                "HCDE"
+            ],
+            "content": "capstone.md",
+            "summary": "Team capstone project for Human-Centered Design & Engineering, sponsored by Seattle Children's Hospital. We designed and developed a physical device to track post-surgical patients' opioid prescriptions and notify them when a new dose of medication is ready.",
+            "date": "Winter 2018 - Spring 2018",
+            "team": 4,
+            "github": "https://github.com/FThompson/SmartPCA-Capstone-v2"
+        },
+        {
+            "title": "Netflix Gamepad Interface",
+            "tags": [
+                "Programming",
+                "UI/UX",
+                "Web"
+            ],
+            "content": "netflix-gamepad.md",
+            "summary": "Chrome plugin designed to provide a user-friendly interface for controlling Netflix with a gamepad or game controller, allowing users to enjoy Netflix in a browser without sitting at their PC.",
+            "date": "Winter 2019",
+            "team": 1,
+            "external": "tba",
+            "github": "https://github.com/FThompson/NetflixController"
+        },
+        {
+            "title": "Dominion Randomizer",
+            "tags": [
+                "Programming",
+                "UI/UX",
+                "Web"
+            ],
+            "content": "dominion-randomizer.md",
+            "summary": "Web application that randomizes card sets, based on user-specified parameters, for the card game <a href='https://en.wikipedia.org/wiki/Dominion_(card_game)' title='Dominion' target='_blank'>Dominion</a> that requires players to randomly pick ten of up to hundreds of possible cards during game setup.",
+            "date": "Fall 2018 - Winter 2019",
+            "team": 1,
+            "external": "https://dominion-randomizer.github.io/",
+            "github": "https://github.com/dominion-randomizer/dominion-randomizer.github.io"
+        },
+        {
+            "title": "UW Course Seat Claimer",
+            "tags": [
+                "Programming",
+                "UI/UX",
+                "Java"
+            ],
+            "content": "uw-class-seats.md",
+            "summary": "Java 8 GUI application designed to listen to a user's email inbox for open seat notifications on full classes and register the user for the open seat, dropping conflicting courses if specified.",
+            "date": "Fall 2015 - Winter 2016",
+            "team": 1
+        },
+        {
+            "title": "RuneDream",
+            "tags": [
+                "Programming",
+                "UI/UX",
+                "Java",
+                "API",
+                "Community Management"
+            ],
+            "content": "runedream.md",
+            "summary": "Java 7 GUI application designed to automate gameplay of the popular online game <a href='https://en.wikipedia.org/wiki/RuneScape' title='RuneScape' target='_blank'>RuneScape</a>, with support for user-created automation plugins. Worked with a team to create a website and online community to deliver and support the application, which was downloaded over 50,000 times.",
+            "date": "Winter 2012 - Spring 2013",
+            "team": 4
+        },
+        {
+            "title": "Gamepads.js",
+            "tags": [
+                "Programming",
+                "JavaScript",
+                "API"
+            ],
+            "summary": "JavaScript library providing a standardized way of handling gamepads, gamepad events, and gamepad button icons. This library provides support for button and joystick events that the built-in HTML5 gamepads API does not support.",
+            "date": "Winter 2019",
+            "team": 1,
+            "github": "https://github.com/FThompson/Gamepads.js"
+        },
+        {
+            "title": "FormPersistence.js",
+            "tags": [
+                "Programming",
+                "JavaScript",
+                "API"
+            ],
+            "summary": "JavaScript library for preserving HTML form data across multiple sessions.",
+            "date": "Winter 2019",
+            "team": 1,
+            "github": "https://github.com/FThompson/FormPersistence.js"
+        },
+        {
+            "title": "BBC Sound Downloader",
+            "tags": [
+                "Programming",
+                "Python"
+            ],
+            "summary": "Python script designed to download all 16,000+ sounds from <a href='http://bbcsfx.acropolis.org.uk/' title='BBC Sound Effects' target='_blank'>BBC's Sound Effects library</a>, which must otherwise be downloaded one at a time.",
+            "date": "Fall 2018",
+            "team": 1,
+            "github": "https://github.com/FThompson/BBCSoundDownloader"
+        },
+        {
+            "title": "Gene Ontology Database GUI",
+            "tags": [
+                "Programming",
+                "Java",
+                "UI/UX"
+            ],
+            "content": "gene-ontology.md",
+            "summary": "Java 7 application implementing a term frequency–inverse document frequency function for searching a gene/symptom database and displaying relevant results. Created during a research internship at Scripps Translational Science Institute.",
+            "date": "Spring 2014",
+            "team": 1
+        },
+        {
+            "title": "pseudo:styler",
+            "tags": [
+                "Programming",
+                "JavaScript",
+                "API"
+            ],
+            "summary": "JavaScript library for forcing pseudo-class styles on HTML elements. Co-authored with <a href='https://sedlar.me/' title='Tyler Sedlar' target='_blank'>Tyler Sedlar</a>.",
+            "date": "Winter 2019",
+            "team": 2,
+            "github": "https://github.com/TSedlar/pseudo-styler"
+        },
+        {
+            "title": "Crypto Mining Tax Calculator",
+            "tags": [
+                "Programming",
+                "JavaScript",
+                "Node.js"
+            ],
+            "content": "mining-taxes.md",
+            "summary": "Node.js script that determines all income events that given cryptocurrency addresses have received and the value of those incomes at the time they occurred. Useful for calculating taxes and cost basis from mining or acquiring cryptocurrency.",
+            "date": "Winter 2018",
+            "team": 1,
+            "github": "tba"
+        },
+        {
+            "title": "RSBuddy Plugins",
+            "tags": [
+                "Programming",
+                "Java",
+                "UI/UX",
+                "Community Management"
+            ],
+            "content": "rsbuddy.md",
+            "summary": "Several Java programs written for the defunct <a href='https://en.wikipedia.org/wiki/RuneScape' title='RuneScape' target='_blank'>RuneScape</a> automation client RSBuddy. Interacted with users on a community forum to incorporate feedback and address bugs. Total user count of 230,000+ between 15 plugins.",
+            "date": "Winter 2011 - Fall 2011",
+            "team": 1
+        },
+        {
+            "title": "Textube",
+            "tags": [
+                "Programming",
+                "Java",
+                "PHP",
+                "UI/UX",
+                "MySQL"
+            ],
+            "content": "textube.md",
+            "summary": "Java desktop application that offered keyboard shortcuts to upload text/files to my custom URL shortening, file hosting server or evaluate simple mathematical expressions from the clipboard.",
+            "date": "Spring 2011",
+            "team": 1,
+            "github": "tba"
+        },
+        {
+            "title": "MyPlan Usability Study",
+            "tags": [
+                "Research",
+                "UI/UX",
+                "HCDE"
+            ],
+            "content": "myplan-study.md",
+            "summary": "Usability research study exploring the effectiveness of the University of Washington's <a href='https://myplan.uw.edu/home' title='MyPlan' target='_blank'>MyPlan</a> tool, which allows students to register for classes and plan their college coursework. Quarter-long team project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#417' title='Survey of Usability Research Techniques'>HCDE 417</a>.",
+            "date": "Fall 2017",
+            "team": 4
+        },
+        {
+            "title": "Laser Tag Gun",
+            "tags": [
+                "Prototyping",
+                "Programming",
+                "C/C++",
+                "HCDE"
+            ],
+            "content": "laser-gun.md",
+            "summary": "Arduino-powered prototype designed to communicate with other Arduinos via <a href='https://en.wikipedia.org/wiki/XBee' title='XBee' target='_blank'>XBee</a> radio modules to create a laser tag game. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#439' title='Physical Computing' target='_blank'>HCDE 439</a>.",
+            "date": "Spring 2018",
+            "team": 2
+        },
+        {
+            "title": "Bioluminescent Displays",
+            "tags": [
+                "Prototyping",
+                "Research",
+                "HCDE"
+            ],
+            "content": "bioluminescence.md",
+            "summary": "HCDE directed research group led by Dr. Tyler Fox to explore <a href='https://ocean.si.edu/ocean-life/fish/bioluminescence' title='Bioluminescence' target='_blank'>bioluminescence</a> and how we can create novel displays using bioluminescent algae. We prototyped an Arduino-powered, 4\" by 4\" bioluminescent display.",
+            "date": "Fall 2017",
+            "team": 8
+        },
+        {
+            "title": "Infinity Mirror",
+            "tags": [
+                "Prototyping",
+                "UI/UX",
+                "HCDE"
+            ],
+            "content": "infinity-mirror.md",
+            "summary": "3D printed <a href='https://en.wikipedia.org/wiki/Infinity_mirror' title='Infinity Mirror' target='_blank'>infinity mirror</a> and prototyping build process. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#451' title='User Experience Prototyping Techniques' target='_blank'>HCDE 451</a>.",
+            "date": "Winter 2018",
+            "team": 1
+        },
+        {
+            "title": "RedBull Cross Cultural Analysis",
+            "tags": [
+                "Research",
+                "Writing",
+                "HCDE"
+            ],
+            "content": "redbull-study.md",
+            "summary": "Cross-cultural analysis of Red Bull's American and Chinese websites, comparing how each website is designed to cater to different cultures. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#301' title='Advanced Communication in HCDE' target='_blank'>HCDE 301</a>.",
+            "date": "Winter 2016",
+            "team": 2
+        },
+        {
+            "title": "OrderFresh App Concept",
+            "tags": [
+                "Research",
+                "UI/UX",
+                "Writing",
+                "HCDE"
+            ],
+            "content": "orderfresh.md",
+            "summary": "App concept created following the user-centered design process to connect people with the farmers that supply their grocery stores and farmers markets. Quarter-long team project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#318' title='Introduction to User-Centered Design' target='_blank'>HCDE 318</a>.",
+            "date": "Fall 2016",
+            "team": 4
+        },
+        {
+            "title": "FloraFinders Plant Identifier App Concept",
+            "tags": [
+                "Research",
+                "UI/UX",
+                "Writing",
+                "HCDE"
+            ],
+            "content": "florafinders.md",
+            "summary": "App concept created following the user-centered design process to identify plants by capturing them on the phone's camera. Quarter-long team project for <a href='http://www.washington.edu/students/crscat/hcde.html#hcde455' title='User Interface Design' target='_blank'>HCDE 455</a>.",
+            "date": "Fall 2016",
+            "team": 3
+        },
+        {
+            "title": "PUBG Config Parser",
+            "tags": [
+                "Programming",
+                "JavaScript",
+                "API"
+            ],
+            "summary": "JavaScript library for parsing <a href='https://en.wikipedia.org/wiki/PlayerUnknown%27s_Battlegrounds' title='PUBG' target='_blank'>PlayerUnknown Battlegrounds'</a> custom <a href='https://en.wikipedia.org/wiki/INI_file' title='INI file' target='_blank'>INI</a>-like configuration file for settings such as keybindings. Created for use in <a href='https://www.overwolf.com/' title='Overwolf' target='_blank'>Overwolf</a> plugins.",
+            "date": "Winter 2019",
+            "team": 1,
+            "github": "https://github.com/FThompson/PUBGConfigParser"
+        }
+    ]
+}

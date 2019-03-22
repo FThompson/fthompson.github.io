@@ -1,0 +1,60 @@
+body {
+    /* margin: 0 auto; */
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    position: relative;
+    min-width: 20rem;
+    max-width: 30rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.project h3 {
+    margin: 0.4rem 0 0.4rem 0;
+}
+
+.project p {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.bottom {
+    bottom: 0.3rem;
+    position: absolute;
+}
+
+/* .tags {
+    overflow-wrap: break-word;
+} */
+
+.tag {
+    font-size: 75%;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    display: inline-block;
+    margin: 0.2rem;
+}
+
+/* .tag + .tag {
+    margin-left: 0.5rem;
+} */
