@@ -32,9 +32,14 @@ footer > div:not(:first-child) {
     justify-content: center;
 }
 
-@media screen and (max-width: 40rem) {
+@media screen and (max-width: 50rem) {
     #projects {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        max-width: 40rem !important;
     }
 }
 
@@ -44,7 +49,7 @@ footer > div:not(:first-child) {
     min-width: 20rem;
     max-width: 30rem;
     padding: 0.7rem;
-    margin: 1rem;
+    margin: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     padding-bottom: 2.1rem;
