@@ -32,6 +32,12 @@ footer > div:not(:first-child) {
     justify-content: center;
 }
 
+@media screen and (max-width: 40rem) {
+    #projects {
+        flex-direction: column;
+    }
+}
+
 .project {
     position: relative;
     flex: 1 1 30%;
