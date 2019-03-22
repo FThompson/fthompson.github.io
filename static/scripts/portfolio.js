@@ -20,10 +20,15 @@ function addProject(project) {
     let bottom = $('<div>').addClass('bottom').appendTo(card)
     $('<span>').text(project.date).appendTo(bottom)
     if (project.github) {
-
+        createImageLink(project.github, 'github', 'View source code').appendTo(bottom)
     }
     if (project.external) {
-
+        createImageLink(project.external, 'external-link', 'View project').appendTo(bottom)
+    }
+    if (project.team > 1) {
+        let label = 'Team: ' + project.team
+        $('<img>').addClass('project-icon').attr('src', 'static/icons/multiple-users.png')
+                .attr('alt', label).attr('title', label).appendTo(bottom)
     }
 }
 
@@ -49,9 +54,13 @@ function closeProjectPage() {
 
 function changeView() {
     if (window.location.hash) {
-        let content = window.location.hash.slice(3) + '.md'
-        openProjectPage(content)
+        openProjectPage(window.location.hash.slice(3) + '.md')
     } else {
         closeProjectPage()
     }
+}
+
+function createImageLink(link, imageClass, title) {
+    return $('<a>').addClass('project-icon').addClass(imageClass).attr('href', link).attr('title', title)
+            .attr('target', '_blank')
 }

@@ -79,7 +79,7 @@
                 "JavaScript",
                 "API"
             ],
-            "summary": "JavaScript library providing a standardized way of handling gamepads, gamepad events, and gamepad button icons. This library provides support for button and joystick events that the built-in HTML5 gamepads API does not support.",
+            "summary": "JavaScript library providing a standardized way of handling gamepads, gamepad events, and gamepad button icons. This library provides support for button and joystick events that the built-in HTML5 gamepads API does not offer.",
             "date": "Winter 2019",
             "team": 1,
             "github": "https://github.com/FThompson/Gamepads.js"
@@ -91,7 +91,7 @@
                 "JavaScript",
                 "API"
             ],
-            "summary": "JavaScript library for preserving HTML form data across multiple sessions.",
+            "summary": "JavaScript library for preserving HTML form data across multiple sessions by saving data to web storage.",
             "date": "Winter 2019",
             "team": 1,
             "github": "https://github.com/FThompson/FormPersistence.js"
@@ -126,7 +126,7 @@
                 "JavaScript",
                 "API"
             ],
-            "summary": "JavaScript library for forcing pseudo-class styles on HTML elements. Co-authored with <a href='https://sedlar.me/' title='Tyler Sedlar' target='_blank'>Tyler Sedlar</a>.",
+            "summary": "JavaScript library for toggling pseudo-class styles on HTML elements. Co-authored with <a href='https://sedlar.me/' title='Tyler Sedlar' target='_blank'>Tyler Sedlar</a>.",
             "date": "Winter 2019",
             "team": 2,
             "github": "https://github.com/TSedlar/pseudo-styler"
@@ -167,8 +167,8 @@
                 "MySQL"
             ],
             "content": "textube.md",
-            "summary": "Java desktop application that offered keyboard shortcuts to upload text/files to my custom URL shortening, file hosting server or evaluate simple mathematical expressions from the clipboard.",
-            "date": "Spring 2011",
+            "summary": "Java desktop application that offered keyboard shortcuts to upload text/files to my custom URL shortening, file hosting server or evaluate simple mathematical expressions from the clipboard. Defunct.",
+            "date": "Spring 2012",
             "team": 1,
             "github": "tba"
         },

@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: local('Open Sans'), url('../fonts/OpenSans-Regular.ttf') format('ttf');
+}
+
 body {
-    /* margin: 0 auto; */
-    font-family: sans-serif;
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -9,6 +17,13 @@ header {
 
 footer {
     text-align: center;
+    font-size: 70%;
+    color: #666;
+    margin: 0.5rem;
+}
+
+footer > div:not(:first-child) {
+    margin-top: 0.5rem;
 }
 
 #projects {
@@ -19,34 +34,33 @@ footer {
 
 .project {
     position: relative;
+    flex: 1 1 30%;
     min-width: 20rem;
     max-width: 30rem;
-    padding: 0.5rem;
+    padding: 0.7rem;
     margin: 1rem;
     border: 1px solid #ccc;
     border-radius: 0.5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 2.1rem;
 }
 
 .project h3 {
-    margin: 0.4rem 0 0.4rem 0;
+    margin: 0.2rem 0 0.2rem 0;
+    font-weight: 500;
+    border-bottom: 1px #ccc solid;
 }
 
 .project p {
     margin: 0.5rem 0 0.5rem 0;
+    font-size: 90%;
 }
 
-.bottom {
-    bottom: 0.3rem;
-    position: absolute;
+.project :not(h3) {
+    font-size: 90%;
 }
-
-/* .tags {
-    overflow-wrap: break-word;
-} */
 
 .tag {
-    font-size: 75%;
+    font-size: 80% !important;
     background-color: #ddd;
     border: 1px solid #ccc;
     border-radius: 0.2rem;
@@ -55,6 +69,29 @@ footer {
     margin: 0.2rem;
 }
 
-/* .tag + .tag {
-    margin-left: 0.5rem;
-} */
+.bottom {
+    bottom: 0.5rem;
+    position: absolute;
+    width: calc(100% - 1.4rem);
+}
+
+.bottom span {
+    bottom: 0;
+    position: absolute;
+}
+
+.project-icon {
+    float: right;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: 1.5rem 1.5rem;
+    margin-left: 0.4rem;
+}
+
+.github {
+    background-image: url('../icons/github.png');
+}
+
+.external-link {
+    background-image: url('../icons/external-link.png');
+}
