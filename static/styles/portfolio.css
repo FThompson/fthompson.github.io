@@ -52,10 +52,9 @@ footer > div:not(:first-child) {
 
 .project p {
     margin: 0.5rem 0 0.5rem 0;
-    font-size: 90%;
 }
 
-.project :not(h3) {
+.project > :not(h3) {
     font-size: 90%;
 }
 
@@ -78,6 +77,7 @@ footer > div:not(:first-child) {
 .bottom span {
     bottom: 0;
     position: absolute;
+    font-size: 85%;
 }
 
 .project-icon {

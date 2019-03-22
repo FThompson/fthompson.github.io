@@ -23,7 +23,8 @@
             "tags": [
                 "Programming",
                 "UI/UX",
-                "Web"
+                "HTML/CSS",
+                "JavaScript"
             ],
             "content": "netflix-gamepad.md",
             "summary": "Chrome plugin designed to provide a user-friendly interface for controlling Netflix with a gamepad or game controller, allowing users to enjoy Netflix in a browser without sitting at their PC.",
@@ -37,7 +38,9 @@
             "tags": [
                 "Programming",
                 "UI/UX",
-                "Web"
+                "HTML/CSS",
+                "JavaScript",
+                "Python"
             ],
             "content": "dominion-randomizer.md",
             "summary": "Web application that randomizes card sets, based on user-specified parameters, for the card game <a href='https://en.wikipedia.org/wiki/Dominion_(card_game)' title='Dominion' target='_blank'>Dominion</a> that requires players to randomly pick ten of up to hundreds of possible cards during game setup.",
@@ -68,7 +71,7 @@
                 "Community Management"
             ],
             "content": "runedream.md",
-            "summary": "Java 7 GUI application designed to automate gameplay of the popular online game <a href='https://en.wikipedia.org/wiki/RuneScape' title='RuneScape' target='_blank'>RuneScape</a>, with support for user-created automation plugins. Worked with a team to create a website and online community to deliver and support the application, which was downloaded over 50,000 times.",
+            "summary": "Java 7 GUI application designed to automate gameplay of the popular online game <a href='https://en.wikipedia.org/wiki/RuneScape' title='RuneScape' target='_blank'>RuneScape</a>, with support for user-created automation plugins. Worked with a team to create a website and online community to deliver and support the application, which was downloaded over 50,000 times. Defunct.",
             "date": "Winter 2012 - Spring 2013",
             "team": 4
         },
@@ -270,6 +273,19 @@
             "date": "Winter 2019",
             "team": 1,
             "github": "https://github.com/FThompson/PUBGConfigParser"
+        },
+        {
+            "title": "My Online Portfolio",
+            "tags": [
+                "Programming",
+                "UI/UX",
+                "HTML/CSS",
+                "JavaScript"
+            ],
+            "summary": "This website, created to showcase my work over the years.",
+            "date": "Spring 2019",
+            "team": 1,
+            "github": "https://github.com/FThompson/fthompson.github.io"
         }
     ]
 }
