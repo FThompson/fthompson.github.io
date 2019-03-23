@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    src: local('Open Sans'), url('../fonts/OpenSans-Regular.ttf') format('ttf');
+    src: local('Open Sans'), url('/static/fonts/OpenSans-Regular.ttf') format('ttf');
 }
 
 body {
@@ -11,8 +11,31 @@ body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-header {
+#banner {
+    background-image: url('/static/images/stevens-pass-pano.jpg');
+    background-size: cover;
+    background-position: center 55%;
+    height: 17vh;
+    min-height: 10rem;
+}
+
+#who {
     text-align: center;
+}
+
+#name {
+    font-weight: 400;
+    color: #001749;
+}
+
+#name span {
+    font-weight: 600;
+    font-size: 105%;
+}
+
+#specialties {
+    margin-top: 0.5rem;
+    color: #001749;
 }
 
 footer {
@@ -71,7 +94,7 @@ footer > div:not(:first-child) {
 
 .tag {
     font-size: 80% !important;
-    background-color: #ddd;
+    background-color: #b2dbf7;
     border: 1px solid #ccc;
     border-radius: 0.2rem;
     padding: 0.2rem;
@@ -100,9 +123,9 @@ footer > div:not(:first-child) {
 }
 
 .github {
-    background-image: url('../icons/github.png');
+    background-image: url('/static/images/github.png');
 }
 
 .external-link {
-    background-image: url('../icons/external-link.png');
+    background-image: url('/static/images/external-link.png');
 }
