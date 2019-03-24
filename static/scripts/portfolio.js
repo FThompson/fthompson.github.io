@@ -41,14 +41,14 @@ function openProjectPage(markdownLink) {
         projectPage.append(html)
         let title = projectPage.children().first().text()
         document.title = document.title.replace('Portfolio', title)
-        $('#projects').hide()
+        $('#landing').hide()
         projectPage.show()
     })
 }
 
 function closeProjectPage() {
-    $('#project-page').hide()
-    $('#projects').show()
+    $('#project-page').empty().hide()
+    $('#landing').show()
     document.title = 'Finn Thompson - Portfolio'
 }
 

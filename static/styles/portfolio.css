@@ -9,6 +9,11 @@
 body {
     margin: 0;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    min-width: 22.5rem;
+}
+
+.right {
+    float: right;
 }
 
 #banner {
@@ -19,13 +24,15 @@ body {
     min-height: 10rem;
 }
 
-#who {
+#landing {
     text-align: center;
 }
 
 #name {
     font-weight: 400;
     color: #001749;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 #name span {
@@ -34,25 +41,41 @@ body {
 }
 
 #specialties {
-    margin-top: 0.5rem;
+    font-weight: 600;
+    margin-top: 0.3rem;
     color: #001749;
 }
 
-footer {
-    text-align: center;
-    font-size: 70%;
-    color: #666;
-    margin: 0.5rem;
+.link-button {
+    display: inline-block;
+    background-color: #b2dbf7;
+    color: #001749;
+    padding: 0.5rem 1rem;
+    font-size: 120%;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border: 1px #001749 solid;
 }
 
-footer > div:not(:first-child) {
-    margin-top: 0.5rem;
+.link-button:hover {
+    background-color: #69b8ef;
+    cursor: pointer;
+}
+
+.link-button:active {
+    background-color: #62ace0;
+    box-shadow: inset 0 0.2rem 0.2rem;
+}
+
+#projects-label {
+    margin-bottom: 0;
 }
 
 #projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: left;
 }
 
 @media screen and (max-width: 50rem) {
@@ -128,4 +151,15 @@ footer > div:not(:first-child) {
 
 .external-link {
     background-image: url('/static/images/external-link.png');
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    color: #666;
+    margin: 0.5rem;
+}
+
+footer > div:not(:first-child) {
+    margin-top: 0.5rem;
 }
