@@ -8,8 +8,7 @@
                 "Research",
                 "UI/UX",
                 "C/C++",
-                "Python",
-                "HCDE"
+                "Python"
             ],
             "content": "capstone.md",
             "summary": "Team capstone project for Human-Centered Design & Engineering, sponsored by Seattle Children's Hospital. We designed and developed a physical device to track post-surgical patients' opioid prescriptions and notify them when a new dose of medication is ready.",
@@ -176,8 +175,7 @@
             "title": "MyPlan Usability Study",
             "tags": [
                 "Research",
-                "UI/UX",
-                "HCDE"
+                "UI/UX"
             ],
             "content": "myplan-study.md",
             "summary": "Usability research study exploring the effectiveness of the University of Washington's <a href='https://myplan.uw.edu/home' title='MyPlan' target='_blank'>MyPlan</a> tool, which allows students to register for classes and plan their college coursework. Quarter-long team project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#417' title='Survey of Usability Research Techniques'>HCDE 417</a>.",
@@ -189,8 +187,7 @@
             "tags": [
                 "Prototyping",
                 "Programming",
-                "C/C++",
-                "HCDE"
+                "C/C++"
             ],
             "content": "laser-gun.md",
             "summary": "Arduino-powered prototype designed to communicate with other Arduinos via <a href='https://en.wikipedia.org/wiki/XBee' title='XBee' target='_blank'>XBee</a> radio modules to create a laser tag game. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#439' title='Physical Computing' target='_blank'>HCDE 439</a>.",
@@ -201,8 +198,7 @@
             "title": "Bioluminescent Displays",
             "tags": [
                 "Prototyping",
-                "Research",
-                "HCDE"
+                "Research"
             ],
             "content": "bioluminescence.md",
             "summary": "HCDE directed research group led by Dr. Tyler Fox to explore <a href='https://ocean.si.edu/ocean-life/fish/bioluminescence' title='Bioluminescence' target='_blank'>bioluminescence</a> and how we can create novel displays using bioluminescent algae. We prototyped an Arduino-powered, 4\" by 4\" bioluminescent display.",
@@ -213,8 +209,7 @@
             "title": "Infinity Mirror",
             "tags": [
                 "Prototyping",
-                "UI/UX",
-                "HCDE"
+                "UI/UX"
             ],
             "content": "infinity-mirror.md",
             "summary": "3D printed <a href='https://en.wikipedia.org/wiki/Infinity_mirror' title='Infinity Mirror' target='_blank'>infinity mirror</a> and prototyping build process. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#451' title='User Experience Prototyping Techniques' target='_blank'>HCDE 451</a>.",
@@ -224,8 +219,7 @@
         {
             "title": "RedBull Cross Cultural Analysis",
             "tags": [
-                "Research",
-                "HCDE"
+                "Research"
             ],
             "content": "redbull-study.md",
             "summary": "Cross-cultural analysis of Red Bull's American and Chinese websites, comparing how each website is designed to cater to different cultures. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#301' title='Advanced Communication in HCDE' target='_blank'>HCDE 301</a>.",
@@ -236,8 +230,7 @@
             "title": "OrderFresh App Concept",
             "tags": [
                 "Research",
-                "UI/UX",
-                "HCDE"
+                "UI/UX"
             ],
             "content": "orderfresh.md",
             "summary": "App concept created following the user-centered design process to connect people with the farmers that supply their grocery stores and farmers markets. Quarter-long team project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#318' title='Introduction to User-Centered Design' target='_blank'>HCDE 318</a>.",
@@ -248,8 +241,7 @@
             "title": "FloraFinders Plant Identifier App Concept",
             "tags": [
                 "Research",
-                "UI/UX",
-                "HCDE"
+                "UI/UX"
             ],
             "content": "florafinders.md",
             "summary": "App concept created following the user-centered design process to identify plants by capturing them on the phone's camera. Quarter-long team project for <a href='http://www.washington.edu/students/crscat/hcde.html#hcde455' title='User Interface Design' target='_blank'>HCDE 455</a>.",
