@@ -1,3 +1,7 @@
+:root {
+    --dark-text: #001749;
+}
+
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
@@ -22,6 +26,7 @@ body {
     background-position: center 55%;
     height: 17vh;
     min-height: 10rem;
+    width: 100vw;
 }
 
 #landing {
@@ -30,7 +35,7 @@ body {
 
 #name {
     font-weight: 400;
-    color: #001749;
+    color: var(--dark-text);
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -43,7 +48,7 @@ body {
 #specialties {
     font-weight: 600;
     margin-top: 0.3rem;
-    color: #001749;
+    color: var(--dark-text);
 }
 
 #links {
@@ -55,7 +60,6 @@ body {
 
 .link {
     text-decoration: none;
-    color: #001749;
     margin-left: 1rem;
 }
 
@@ -66,15 +70,12 @@ body {
 
 .link h5 {
     margin: 0;
-}
-
-.link-spacer {
-    width: 2rem;
+    color: var(--dark-text);
 }
 
 #projects-label {
     margin-bottom: 0;
-    color: #001749;
+    color: var(--dark-text);
 }
 
 /* TODO: reimplement with grid, and different amount of columns based on screen size rules */
@@ -169,7 +170,7 @@ body {
 }
 
 .github {
-    background-image: url('/static/images/github.png');
+    background-image: url('/static/images/github-default.png');
 }
 
 .external-link {
