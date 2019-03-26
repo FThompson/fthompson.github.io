@@ -70,7 +70,8 @@
             "content": "runedream.md",
             "summary": "Java 7 GUI application designed to automate gameplay of the popular online game <a href='https://en.wikipedia.org/wiki/RuneScape' title='RuneScape' target='_blank'>RuneScape</a>, with support for user-created automation plugins. Worked with a team to create a website and online community to deliver and support the application, which was downloaded over 50,000 times. Defunct.",
             "date": "Winter 2012 - Spring 2013",
-            "team": 4
+            "team": 4,
+            "github": "https://github.com/FThompson/RuneDream-API"
         },
         {
             "title": "Gamepads.js",
