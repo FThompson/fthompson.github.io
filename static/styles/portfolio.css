@@ -21,7 +21,7 @@ body {
     float: right;
 }
 
-#banner {
+header {
     background-image: url('/static/images/stevens-pass-pano.jpg');
     background-size: cover;
     background-position: center 55%;
