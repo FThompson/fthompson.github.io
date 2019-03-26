@@ -124,6 +124,7 @@ body {
     }
 
     .project {
+        min-width: 15rem !important;
         max-width: none !important;
     }
 }
