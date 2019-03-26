@@ -27,7 +27,7 @@ function addProject(project) {
     }
     if (project.team > 1) {
         let label = 'Team: ' + project.team
-        $('<img>').addClass('project-icon').attr('src', 'static/images/multiple-users.png')
+        $('<img>').addClass('project-icon').attr('src', '/static/images/multiple-users.svg')
                 .attr('alt', label).attr('title', label).appendTo(bottom)
     }
 }
