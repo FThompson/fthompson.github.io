@@ -20,10 +20,10 @@ function addProject(project) {
     let bottom = $('<div>').addClass('bottom').appendTo(card)
     $('<span>').text(project.date).appendTo(bottom)
     if (project.github) {
-        createImageLink(project.github, 'github', 'View source code').appendTo(bottom)
+        createImageLink(project.github, 'project-github', 'View source code').appendTo(bottom)
     }
     if (project.external) {
-        createImageLink(project.external, 'external-link', 'View project').appendTo(bottom)
+        createImageLink(project.external, 'project-external-link', 'View project').appendTo(bottom)
     }
     if (project.team > 1) {
         let label = 'Team: ' + project.team
