@@ -201,7 +201,7 @@ body {
 }
 
 .project-github {
-    background-image: url('/static/images/github-default.png');
+    background-image: url('/static/images/github-default.svg');
 }
 
 .project-external-link {
