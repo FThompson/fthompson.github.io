@@ -29,6 +29,16 @@ body {
     width: 100vw;
 }
 
+#profile {
+    background-image: url('/static/images/finn-informal-profile.jpg');
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: -7.5rem auto 0 auto;
+}
+
 #landing {
     text-align: center;
 }
