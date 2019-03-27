@@ -35,14 +35,16 @@ function addProject(project) {
 function openProjectPage(markdownLink) {
     let projectPage = $('#project-page')
     projectPage.empty()
-    fetch('static/projects/' + markdownLink).then(response => response.text()).then(text => {
+    fetch('static/projects/' + markdownLink).then(check404)
+            .then(response => response.text()).then(text => {
         let converter = new showdown.Converter()
+        converter.setOption('noHeaderId', true)
         let html = converter.makeHtml(text)
         projectPage.append(html)
         let title = projectPage.children().first().text()
         document.title = document.title.replace('Portfolio', title)
-        $('#profile').addClass('small')
         $('#landing').hide()
+        $('#profile').addClass('small')
         projectPage.show()
     })
 }
@@ -65,4 +67,12 @@ function changeView() {
 function createImageLink(link, imageClass, title) {
     return $('<a>').addClass('project-icon').addClass(imageClass).attr('href', link).attr('title', title)
             .attr('target', '_blank')
+}
+
+function check404(response) {
+    if (response.status === 404) {
+        window.location.href = '/404.html'
+    } else {
+        return Promise.resolve(response)
+    }
 }
