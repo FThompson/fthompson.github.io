@@ -39,6 +39,7 @@ function openProjectPage(markdownLink) {
             .then(response => response.text()).then(text => {
         let converter = new showdown.Converter()
         converter.setOption('noHeaderId', true)
+        converter.setOption('openLinksInNewWindow', true)
         let html = converter.makeHtml(text)
         projectPage.append(html)
         let title = projectPage.children().first().text()
