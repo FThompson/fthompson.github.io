@@ -125,6 +125,22 @@ header {
     max-width: 100%;
 }
 
+#project-page img + em {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 85%;
+}
+
+#project-page h1,
+#project-page h2,
+#project-page h3,
+#project-page h4,
+#project-page h5,
+#project-page h6 {
+    clear: both;
+}
+
 #projects-label {
     margin-bottom: 0;
     color: var(--dark-text);
@@ -147,6 +163,24 @@ header {
     .project {
         min-width: 10rem !important;
         max-width: none !important;
+    }
+
+    #project-page .right {
+        float: none !important;
+    }
+}
+
+@media screen and (min-width: 52.5rem) {
+    #project-page .right {
+        margin-left: 1rem;
+    }
+
+    #first-prototype-parts {
+        max-width: 40vw !important;
+    }
+
+    #second-prototype-parts {
+        max-width: 40vw !important;
     }
 }
 

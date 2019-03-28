@@ -1,3 +1,4 @@
+let lastHash = null
 changeView()
 fetch('static/projects/projects.json').then(response => response.json()).then(data => {
     data.projects.forEach(addProject)
@@ -32,7 +33,7 @@ function addProject(project) {
     }
 }
 
-function openProjectPage(markdownLink) {
+function openProjectPage(markdownLink, scrollToTop) {
     let projectPage = $('#project-page')
     projectPage.empty()
     fetch('static/projects/' + markdownLink).then(check404)
@@ -47,6 +48,9 @@ function openProjectPage(markdownLink) {
         $('#landing').hide()
         $('#profile').addClass('small')
         projectPage.show()
+        if (scrollToTop) {
+            window.scrollTo(0, 0)
+        }
     })
 }
 
@@ -59,10 +63,12 @@ function closeProjectPage() {
 
 function changeView() {
     if (window.location.hash) {
-        openProjectPage(window.location.hash.slice(3) + '.md')
+        let scrollToTop = lastHash !== window.location.hash
+        openProjectPage(window.location.hash.slice(3) + '.md', scrollToTop)
     } else {
         closeProjectPage()
     }
+    lastHash = window.location.hash
 }
 
 function createImageLink(link, imageClass, title) {
