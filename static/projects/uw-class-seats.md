@@ -21,6 +21,6 @@ Upon pressing Start, the application logs into the user's email inbox, begins li
     <img class='inline' src='/static/projects/uw-class-seats/failed-icon.png' alt='Failed icon'>
 </div>
 
-## Disclaimer
+## Assets
 
 I learned after developing this application that programs that automate UW's class registration process are forbidden by the university. I ended up manually getting into the class I needed while working on this application, but I still decided to finish it for completion's sake. In respecting UW's rule, I will not be publishing the code online, though prospective employers may request the code or code samples at my discretion.
