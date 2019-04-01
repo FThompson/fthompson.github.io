@@ -141,6 +141,13 @@ header {
     clear: both;
 }
 
+#project-page blockquote {
+    background-color: #f4f4f4;
+    border-left: 0.25rem solid #ccc;
+    padding: 0 2.5rem;
+    margin: 0;
+}
+
 #projects-label {
     margin-bottom: 0;
     color: var(--dark-text);

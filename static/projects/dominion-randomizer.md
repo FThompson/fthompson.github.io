@@ -2,7 +2,7 @@
 
 > Dominion is a deck-building card game created by Donald X. Vaccarino and published by Rio Grande Games. Each player uses a separate deck of cards and draw their hands from their own decks, not others'. Players use the cards in their hands to either perform actions or buy select cards from a common pool of card stacks. The player with the most victory points at the end wins. The game has a "light" medieval theme, with card names that reference pre-industrial, monarchical, and feudal social structures.
 >
-> -- [WikiPedia article on Dominion](https://en.wikipedia.org/wiki/Dominion_(card_game))
+> – [WikiPedia article on Dominion](https://en.wikipedia.org/wiki/Dominion_(card_game))
 
 ## Motivation
 
