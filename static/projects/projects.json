@@ -56,7 +56,7 @@
             ],
             "content": "uw-class-seats.md",
             "summary": "Java 8 GUI application designed to listen to a user's email inbox for open seat notifications on full classes and register the user for the open seat, dropping conflicting courses if specified.",
-            "date": "Fall 2015 - Winter 2016",
+            "date": "Fall 2015",
             "team": 1
         },
         {
