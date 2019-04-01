@@ -51,7 +51,7 @@ function openProjectPage(markdownLink, scrollToTop) {
         if (scrollToTop) {
             window.scrollTo(0, 0)
         }
-    })
+    }).catch(() => window.location.href = '/404.html') // catch-all redirection
 }
 
 function closeProjectPage() {
@@ -78,7 +78,7 @@ function createImageLink(link, imageClass, title) {
 
 function check404(response) {
     if (response.status === 404) {
-        window.location.href = '/404.html'
+        return Promise.reject(response)
     } else {
         return Promise.resolve(response)
     }
