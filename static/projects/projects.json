@@ -244,10 +244,10 @@
                 "Research",
                 "UI/UX"
             ],
-            "content": "florafinders.md",
             "summary": "App concept created following the user-centered design process to identify plants by capturing them on the phone's camera. Quarter-long team project for <a href='http://www.washington.edu/students/crscat/hcde.html#hcde455' title='User Interface Design' target='_blank'>HCDE 455</a>.",
             "date": "Fall 2016",
-            "team": 3
+            "team": 3,
+            "report": "FloraFinders - Final Report (HCDE 455).pdf"
         },
         {
             "title": "PUBG Config Parser",
