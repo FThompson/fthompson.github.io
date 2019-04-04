@@ -233,10 +233,10 @@
                 "Research",
                 "UI/UX"
             ],
-            "content": "orderfresh.md",
-            "summary": "App concept created following the user-centered design process to connect people with the farmers that supply their grocery stores and farmers markets. Quarter-long team project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#318' title='Introduction to User-Centered Design' target='_blank'>HCDE 318</a>.",
+            "summary": "App concept created following the user-centered design process to connect people with the farmers that supply their grocery stores and farmers markets. Quarter-long team project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#318' title='Introduction to User-Centered Design' target='_blank'>HCDE 318</a>. See linked project portfolio website.",
             "date": "Fall 2016",
-            "team": 4
+            "team": 4,
+            "external": "https://orderfresh.wordpress.com/"
         },
         {
             "title": "FloraFinders Plant Identifier App Concept",
