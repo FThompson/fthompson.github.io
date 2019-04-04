@@ -178,7 +178,7 @@
                 "Research",
                 "UI/UX"
             ],
-            "content": "myplan-study.md",
+            "report": "MyPlan Usability Study - Final Report (HCDE 417).pdf",
             "summary": "Usability research study exploring the effectiveness of the University of Washington's <a href='https://myplan.uw.edu/home' title='MyPlan' target='_blank'>MyPlan</a> tool, which allows students to register for classes and plan their college coursework. Quarter-long team project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#417' title='Survey of Usability Research Techniques'>HCDE 417</a>.",
             "date": "Fall 2017",
             "team": 4
@@ -212,7 +212,7 @@
                 "Prototyping",
                 "UI/UX"
             ],
-            "content": "infinity-mirror.md",
+            "report": "Infinity Mirror - Final Report (HCDE 451).pdf",
             "summary": "3D printed <a href='https://en.wikipedia.org/wiki/Infinity_mirror' title='Infinity Mirror' target='_blank'>infinity mirror</a> and prototyping build process. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#451' title='User Experience Prototyping Techniques' target='_blank'>HCDE 451</a>.",
             "date": "Winter 2018",
             "team": 1
@@ -222,7 +222,7 @@
             "tags": [
                 "Research"
             ],
-            "content": "redbull-study.md",
+            "report": "RedBull Cross Cultural Analysis (HCDE 301).pdf",
             "summary": "Cross-cultural analysis of Red Bull's American and Chinese websites, comparing how each website is designed to cater to different cultures. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#301' title='Advanced Communication in HCDE' target='_blank'>HCDE 301</a>.",
             "date": "Winter 2016",
             "team": 2
@@ -244,10 +244,10 @@
                 "Research",
                 "UI/UX"
             ],
+            "report": "FloraFinders - Final Report (HCDE 455).pdf",
             "summary": "App concept created following the user-centered design process to identify plants by capturing them on the phone's camera. Quarter-long team project for <a href='http://www.washington.edu/students/crscat/hcde.html#hcde455' title='User Interface Design' target='_blank'>HCDE 455</a>.",
             "date": "Fall 2016",
-            "team": 3,
-            "report": "FloraFinders - Final Report (HCDE 455).pdf"
+            "team": 3
         },
         {
             "title": "PUBG Config Parser",
