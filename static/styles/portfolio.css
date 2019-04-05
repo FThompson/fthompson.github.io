@@ -162,6 +162,10 @@ header {
     margin: 0;
 }
 
+#laser-gun {
+    max-height: 60vh;
+}
+
 #projects-label {
     margin-bottom: 0;
     color: var(--dark-text);
