@@ -12,7 +12,5 @@ My web portfolio.
   * Netflix Gamepad Interface (+ link to app on Chrome store)
   * Crypto Mining Tax Calc (+ host script somewhere w/ front end)
   * Textube
-  * RuneDream
-  * RSBuddy
   * Laser Tag Gun
   * Bioluminescent Displays
