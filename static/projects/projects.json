@@ -182,17 +182,6 @@
             "team": 2
         },
         {
-            "title": "Bioluminescent Displays",
-            "tags": [
-                "Prototyping",
-                "Research"
-            ],
-            "content": "bioluminescence.md",
-            "summary": "HCDE directed research group led by Dr. Tyler Fox to explore <a href='https://ocean.si.edu/ocean-life/fish/bioluminescence' title='Bioluminescence' target='_blank'>bioluminescence</a> and how we can create novel displays using bioluminescent algae. We prototyped an Arduino-powered, 4\" by 4\" bioluminescent display.",
-            "date": "Fall 2017",
-            "team": 8
-        },
-        {
             "title": "Infinity Mirror",
             "tags": [
                 "Prototyping",

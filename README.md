@@ -11,5 +11,3 @@ My web portfolio.
 * Finish project pages
   * Netflix Gamepad Interface (+ link to app on Chrome store)
   * Crypto Mining Tax Calc (+ host script somewhere w/ front end)
-  * Laser Tag Gun
-  * Bioluminescent Displays
