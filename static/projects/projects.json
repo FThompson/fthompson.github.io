@@ -137,11 +137,10 @@
                 "JavaScript",
                 "Node.js"
             ],
-            "content": "mining-taxes.md",
-            "summary": "Node.js script that determines all income events that given cryptocurrency addresses have received and the value of those incomes at the time they occurred. Useful for calculating taxes and cost basis from mining or acquiring cryptocurrency.",
+            "summary": "Node.js script that determines all income events received by given cryptocurrency addresses and the value of those income events at the time they occurred. Useful for calculating taxes and cost basis from mining or acquiring cryptocurrency.",
             "date": "Winter 2018",
             "team": 1,
-            "github": "tba"
+            "github": "https://github.com/FThompson/CryptocurrencyTaxCalculator"
         },
         {
             "title": "Textube",
@@ -155,8 +154,7 @@
             "content": "textube.md",
             "summary": "Java desktop application that offered keyboard shortcuts to upload text/files to my custom URL shortening, file hosting server or evaluate simple mathematical expressions from the clipboard. Defunct.",
             "date": "Spring 2012",
-            "team": 1,
-            "github": "tba"
+            "team": 1
         },
         {
             "title": "MyPlan Usability Study",
