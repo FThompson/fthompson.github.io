@@ -24,8 +24,7 @@
                 "HTML/CSS",
                 "JavaScript"
             ],
-            "content": "netflix-gamepad.md",
-            "summary": "Chrome plugin designed to provide a user-friendly interface for controlling Netflix with a gamepad or game controller, allowing users to enjoy Netflix in a browser without sitting at their PC. Work in progress.",
+            "summary": "Chrome plugin designed to provide a user-friendly interface for controlling Netflix with a gamepad or game controller, allowing users to enjoy Netflix in a browser without sitting at their PC. Functional work in progress.",
             "date": "Winter 2019",
             "team": 1,
             "github": "https://github.com/FThompson/NetflixController"
