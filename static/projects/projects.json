@@ -142,18 +142,17 @@
             "github": "https://github.com/FThompson/CryptocurrencyTaxCalculator"
         },
         {
-            "title": "Textube",
+            "title": "Online Portfolio",
             "tags": [
                 "Programming",
-                "Java",
-                "PHP",
                 "UI/UX",
-                "MySQL"
+                "HTML/CSS",
+                "JavaScript"
             ],
-            "content": "textube.md",
-            "summary": "Java desktop application that offered keyboard shortcuts to upload text/files to my custom URL shortening, file hosting server or evaluate simple mathematical expressions from the clipboard. Defunct.",
-            "date": "Spring 2012",
-            "team": 1
+            "summary": "This website, created to showcase my portfolio of work. Project page contents are written in Markdown and loaded into a single-page application. Hosted on GitHub Pages.",
+            "date": "Spring 2019",
+            "team": 1,
+            "github": "https://github.com/FThompson/fthompson.github.io"
         },
         {
             "title": "MyPlan Usability Study",
@@ -167,37 +166,15 @@
             "team": 4
         },
         {
-            "title": "Laser Tag Gun",
+            "title": "FloraFinders Plant Identifier App Concept",
             "tags": [
-                "Prototyping",
-                "Programming",
-                "C/C++"
-            ],
-            "content": "laser-gun.md",
-            "summary": "Arduino-powered prototype designed to communicate with other Arduinos via <a href='https://en.wikipedia.org/wiki/XBee' title='XBee' target='_blank'>XBee</a> radio modules to create a laser tag game. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#439' title='Physical Computing' target='_blank'>HCDE 439</a>.",
-            "date": "Spring 2018",
-            "team": 2
-        },
-        {
-            "title": "Infinity Mirror",
-            "tags": [
-                "Prototyping",
+                "Research",
                 "UI/UX"
             ],
-            "report": "Infinity Mirror - Final Report (HCDE 451).pdf",
-            "summary": "3D printed <a href='https://en.wikipedia.org/wiki/Infinity_mirror' title='Infinity Mirror' target='_blank'>infinity mirror</a> and prototyping build process. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#451' title='User Experience Prototyping Techniques' target='_blank'>HCDE 451</a>.",
-            "date": "Winter 2018",
-            "team": 1
-        },
-        {
-            "title": "RedBull Cross Cultural Analysis",
-            "tags": [
-                "Research"
-            ],
-            "report": "RedBull Cross Cultural Analysis (HCDE 301).pdf",
-            "summary": "Cross-cultural analysis of Red Bull's American and Chinese websites, comparing how each website is designed to cater to different cultures. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#301' title='Advanced Communication in HCDE' target='_blank'>HCDE 301</a>.",
-            "date": "Winter 2016",
-            "team": 2
+            "report": "FloraFinders - Final Report (HCDE 455).pdf",
+            "summary": "App concept created following the user-centered design process to identify plants by capturing them on the phone's camera. Quarter-long team project for <a href='http://www.washington.edu/students/crscat/hcde.html#hcde455' title='User Interface Design' target='_blank'>HCDE 455</a>.",
+            "date": "Fall 2016",
+            "team": 3
         },
         {
             "title": "OrderFresh App Concept",
@@ -209,17 +186,6 @@
             "date": "Fall 2016",
             "team": 4,
             "external": "https://orderfresh.wordpress.com/"
-        },
-        {
-            "title": "FloraFinders Plant Identifier App Concept",
-            "tags": [
-                "Research",
-                "UI/UX"
-            ],
-            "report": "FloraFinders - Final Report (HCDE 455).pdf",
-            "summary": "App concept created following the user-centered design process to identify plants by capturing them on the phone's camera. Quarter-long team project for <a href='http://www.washington.edu/students/crscat/hcde.html#hcde455' title='User Interface Design' target='_blank'>HCDE 455</a>.",
-            "date": "Fall 2016",
-            "team": 3
         },
         {
             "title": "PUBG Config Parser",
@@ -234,17 +200,51 @@
             "github": "https://github.com/FThompson/PUBGConfigParser"
         },
         {
-            "title": "Online Portfolio",
+            "title": "Textube",
             "tags": [
                 "Programming",
+                "Java",
+                "PHP",
                 "UI/UX",
-                "HTML/CSS",
-                "JavaScript"
+                "MySQL"
             ],
-            "summary": "This website, created to showcase my portfolio of work. Project page contents are written in Markdown and loaded into a single-page application. Hosted on GitHub Pages.",
-            "date": "Spring 2019",
-            "team": 1,
-            "github": "https://github.com/FThompson/fthompson.github.io"
+            "content": "textube.md",
+            "summary": "Java desktop application that offered keyboard shortcuts to upload text/files to my custom URL shortening, file hosting server or evaluate simple mathematical expressions from the clipboard. Defunct.",
+            "date": "Spring 2012",
+            "team": 1
+        },
+        {
+            "title": "Laser Tag Gun",
+            "tags": [
+                "Prototyping",
+                "Programming",
+                "C/C++"
+            ],
+            "content": "laser-gun.md",
+            "summary": "Arduino-powered prototype designed to communicate with other Arduinos via <a href='https://en.wikipedia.org/wiki/XBee' title='XBee' target='_blank'>XBee</a> radio modules to create a laser tag game. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#439' title='Physical Computing' target='_blank'>HCDE 439</a>.",
+            "date": "Spring 2018",
+            "team": 2
+        },
+        {
+            "title": "RedBull Cross Cultural Analysis",
+            "tags": [
+                "Research"
+            ],
+            "report": "RedBull Cross Cultural Analysis (HCDE 301).pdf",
+            "summary": "Cross-cultural analysis of Red Bull's American and Chinese websites, comparing how each website is designed to cater to different cultures. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#301' title='Advanced Communication in HCDE' target='_blank'>HCDE 301</a>.",
+            "date": "Winter 2016",
+            "team": 2
+        },
+        {
+            "title": "Infinity Mirror",
+            "tags": [
+                "Prototyping",
+                "UI/UX"
+            ],
+            "report": "Infinity Mirror - Final Report (HCDE 451).pdf",
+            "summary": "3D printed <a href='https://en.wikipedia.org/wiki/Infinity_mirror' title='Infinity Mirror' target='_blank'>infinity mirror</a> and prototyping build process. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#451' title='User Experience Prototyping Techniques' target='_blank'>HCDE 451</a>.",
+            "date": "Winter 2018",
+            "team": 1
         }
     ]
 }
