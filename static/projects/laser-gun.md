@@ -32,6 +32,6 @@ My role included soldering and assembling components and leading the programming
 
 ## Assets
 
-* [Laser Gun Arduino Code](/static/projects/laser-gun/Laser%20Gun%20Code.ino)
+* [Laser Gun Arduino Code (ZIP)](/static/projects/laser-gun/Laser%20Tag%20Gun%20Code.zip)
 * [Laser Gun Schematic (PDF)](/static/projects/laser-gun/Laser%20Gun%20Schematic.pdf)
 * [Laser Tag Project Overview](/static/projects/laser-gun/Laser%20Tag%20Project%20Overview.pdf)
