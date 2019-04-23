@@ -62,7 +62,8 @@
             "tags": [
                 "Programming",
                 "JavaScript",
-                "API"
+                "API",
+                "Tech Writing"
             ],
             "summary": "JavaScript library providing a standardized way of handling gamepads, gamepad events, and gamepad button icons. This library provides support for button and joystick events that the built-in HTML5 gamepads API does not offer. Created for use in my Netflix Gamepad Interface browser plugin.",
             "date": "Winter 2019",
@@ -74,7 +75,8 @@
             "tags": [
                 "Programming",
                 "JavaScript",
-                "API"
+                "API",
+                "Tech Writing"
             ],
             "summary": "JavaScript library for preserving HTML form data across multiple sessions by saving data to web storage.",
             "date": "Winter 2019",
@@ -92,6 +94,18 @@
             "date": "Winter 2019",
             "team": 2,
             "github": "https://github.com/TSedlar/pseudo-styler"
+        },
+        {
+            "title": "ElTag Tutorial",
+            "tags": [
+                "Programming",
+                "Tech Writing",
+                "JavaScript",
+                "HTML/CSS"
+            ],
+            "summary": "Tutorial for <a href='https://github.com/TSedlar/eltag' title='ElTag'>ElTag</a>, an HTML tag component framework. This tutorial walks through making a simple calculator with ElTag.",
+            "date": "Spring 2019",
+            "github": "https://github.com/FThompson/ElTagCalculatorTutorial"
         },
         {
             "title": "RuneDream",
