@@ -108,6 +108,17 @@
             "github": "https://github.com/FThompson/ElTagCalculatorTutorial"
         },
         {
+            "title": "Accessible CSS Grids",
+            "tags": [
+                "Programming",
+                "JavaScript",
+                "API"
+            ],
+            "summary": "JavaScript library for making CSS grids accessible to people with screen readers by altering the source order of grid elements.",
+            "date": "Spring 2019",
+            "github": "https://github.com/FThompson/AccessibleCSSGrids"
+        },
+        {
             "title": "RuneDream",
             "tags": [
                 "Programming",
