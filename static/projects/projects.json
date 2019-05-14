@@ -17,12 +17,13 @@
             "github": "https://github.com/FThompson/SmartPCA-Capstone-v2"
         },
         {
-            "title": "Netflix Gamepad Interface",
+            "title": "Netflix Gamepad Interface Plugin",
             "tags": [
                 "Programming",
                 "UI/UX",
                 "HTML/CSS",
-                "JavaScript"
+                "JavaScript",
+                "Chrome"
             ],
             "summary": "Chrome plugin designed to provide a user-friendly interface for controlling Netflix with a gamepad or game controller, allowing users to enjoy Netflix in a browser without sitting at their PC. Functional work in progress.",
             "date": "Winter 2019",
@@ -106,17 +107,6 @@
             "summary": "Tutorial for <a href='https://github.com/TSedlar/eltag' title='ElTag'>ElTag</a>, an HTML tag component framework. This tutorial walks through making a simple calculator with ElTag.",
             "date": "Spring 2019",
             "github": "https://github.com/FThompson/ElTagCalculatorTutorial"
-        },
-        {
-            "title": "Accessible CSS Grids",
-            "tags": [
-                "Programming",
-                "JavaScript",
-                "API"
-            ],
-            "summary": "JavaScript library for making CSS grids accessible to people with screen readers by altering the source order of grid elements.",
-            "date": "Spring 2019",
-            "github": "https://github.com/FThompson/AccessibleCSSGrids"
         },
         {
             "title": "RuneDream",
@@ -213,6 +203,17 @@
             "external": "https://orderfresh.wordpress.com/"
         },
         {
+            "title": "Accessible CSS Grids",
+            "tags": [
+                "Programming",
+                "JavaScript",
+                "API"
+            ],
+            "summary": "JavaScript library for making CSS grids accessible to people with screen readers by altering the source order of grid elements.",
+            "date": "Spring 2019",
+            "github": "https://github.com/FThompson/AccessibleCSSGrids"
+        },
+        {
             "title": "PUBG Config Parser",
             "tags": [
                 "Programming",
@@ -223,6 +224,18 @@
             "date": "Winter 2019",
             "team": 1,
             "github": "https://github.com/FThompson/PUBGConfigParser"
+        },
+        {
+            "title": "YouTube Uninterrupted Plugin",
+            "tags": [
+                "Programming",
+                "JavaScript",
+                "Chrome"
+            ],
+            "summary": "Chrome plugin that unpauses YouTube when background videos are paused periodically.",
+            "date": "Spring 2019",
+            "team": 1,
+            "github": "https://github.com/FThompson/YouTubeUninterrupted"
         },
         {
             "title": "Textube",
