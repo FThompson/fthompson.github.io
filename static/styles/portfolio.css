@@ -171,6 +171,14 @@ header {
     color: var(--dark-text);
 }
 
+#project-filters {
+    margin: 0.5rem;
+}
+
+#project-filters input {
+    margin-left: 0.75rem;
+}
+
 /* TODO: reimplement with grid, and different amount of columns based on screen size rules */
 #projects {
     display: flex;

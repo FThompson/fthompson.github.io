@@ -3,7 +3,29 @@ changeView()
 fetch('static/projects/projects.json').then(response => response.json()).then(data => {
     data.projects.forEach(addProject)
 })
+$('#project-filters input').change(filterProjects)
 $(window).on('hashchange', changeView)
+
+function filterProjects() {
+    let filter = document.querySelector('input[name="filter"]:checked').value
+    $('.project:not(.project-spacer)').each(function() {
+        let project = $(this)
+        if (filter === 'all') {
+            project.show()
+        } else {
+            let show = false
+            project.find('.tag').each(function() {
+                if ($(this).text() === filter) {
+                    project.show()
+                    show = true
+                }
+            })
+            if (!show) {
+                project.hide()
+            }
+        }
+    })
+}
 
 function addProject(project) {
     let card = $('<div>').addClass('project').appendTo($('#projects'))
