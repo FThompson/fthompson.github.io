@@ -185,6 +185,8 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     text-align: left;
+    max-width: 90rem;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 52.5rem) {
