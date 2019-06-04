@@ -26,7 +26,7 @@
                 "Chrome"
             ],
             "summary": "Chrome plugin designed to provide a user-friendly interface for controlling Netflix with a gamepad or game controller, allowing users to enjoy Netflix in a browser without sitting at their PC. Functional work in progress.",
-            "date": "Winter 2019",
+            "date": "Winter 2019 - Spring 2019",
             "team": 1,
             "github": "https://github.com/FThompson/NetflixController"
         },
@@ -83,6 +83,20 @@
             "date": "Winter 2019",
             "team": 1,
             "github": "https://github.com/FThompson/FormPersistence.js"
+        },
+        {
+            "title": "Chrome Live Storage Module",
+            "tags": [
+                "Programming",
+                "JavaScript",
+                "API",
+                "Tech Writing",
+                "Chrome"
+            ],
+            "summary": "JavaScript library providing live storage objects for seamless use of chrome.storage APIs in Chrome extensions.",
+            "date": "Spring 2019",
+            "team": 1,
+            "github": "https://github.com/FThompson/ChromeLiveStorage"
         },
         {
             "title": "pseudo:styler",
@@ -239,6 +253,7 @@
             "summary": "Chrome plugin that unpauses YouTube when background videos are paused periodically.",
             "date": "Spring 2019",
             "team": 1,
+            "external": "https://chrome.google.com/webstore/detail/youtube-uninterrupted/gmgdfdjegkojcmnoolhhikoiobmpahho",
             "github": "https://github.com/FThompson/YouTubeUninterrupted"
         },
         {
