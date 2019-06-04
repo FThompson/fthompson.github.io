@@ -66,7 +66,7 @@
                 "API",
                 "Tech Writing"
             ],
-            "summary": "JavaScript library providing a standardized way of handling gamepads, gamepad events, and gamepad button icons. This library provides support for button and joystick events that the built-in HTML5 gamepads API does not offer. Created for use in my Netflix Gamepad Interface browser plugin.",
+            "summary": "JavaScript library providing a standardized way of handling gamepads, gamepad events, and gamepad button icons. This library provides support for button and joystick events that the built-in HTML5 gamepads API does not offer.",
             "date": "Winter 2019",
             "team": 1,
             "github": "https://github.com/FThompson/Gamepads.js"
@@ -106,7 +106,7 @@
                 "API",
                 "Tech Writing"
             ],
-            "summary": "JavaScript library for toggling pseudo-class styles (like :hover) on HTML elements. Created for use in my Netflix Gamepad Interface browser plugin. Co-authored with <a href='https://sedlar.me/' title='Tyler Sedlar' target='_blank'>Tyler Sedlar</a>. My contributions include redesigning the library to store pseudoclass rules in a hidden stylesheet, handling selector edge cases, and writing library documentation.",
+            "summary": "JavaScript library for toggling pseudo-class styles (like :hover) on HTML elements. Co-authored with <a href='https://sedlar.me/' title='Tyler Sedlar' target='_blank'>Tyler Sedlar</a>. My contributions include redesigning the library to store pseudoclass rules in a hidden stylesheet, handling selector edge cases, and writing library documentation.",
             "date": "Winter 2019",
             "team": 2,
             "github": "https://github.com/TSedlar/pseudo-styler"
