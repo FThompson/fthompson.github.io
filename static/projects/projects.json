@@ -219,18 +219,6 @@
             "external": "https://orderfresh.wordpress.com/"
         },
         {
-            "title": "Accessible CSS Grids",
-            "tags": [
-                "Programming",
-                "JavaScript",
-                "API",
-                "Tech Writing"
-            ],
-            "summary": "JavaScript library for making CSS grids accessible to people with screen readers by altering the source order of grid elements to match the order in which they are displayed.",
-            "date": "Spring 2019",
-            "github": "https://github.com/FThompson/AccessibleCSSGrids"
-        },
-        {
             "title": "PUBG Config Parser",
             "tags": [
                 "Programming",
@@ -281,27 +269,6 @@
             "summary": "Arduino-powered prototype designed to communicate with other Arduinos via <a href='https://en.wikipedia.org/wiki/XBee' title='XBee' target='_blank'>XBee</a> radio modules to create a laser tag game. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#439' title='Physical Computing' target='_blank'>HCDE 439</a>.",
             "date": "Spring 2018",
             "team": 2
-        },
-        {
-            "title": "RedBull Cross Cultural Analysis",
-            "tags": [
-                "Research"
-            ],
-            "report": "RedBull Cross Cultural Analysis (HCDE 301).pdf",
-            "summary": "Cross-cultural analysis of Red Bull's American and Chinese websites, comparing how each website is designed to cater to different cultures. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#301' title='Advanced Communication in HCDE' target='_blank'>HCDE 301</a>.",
-            "date": "Winter 2016",
-            "team": 2
-        },
-        {
-            "title": "Infinity Mirror",
-            "tags": [
-                "Prototyping",
-                "UI/UX"
-            ],
-            "report": "Infinity Mirror - Final Report (HCDE 451).pdf",
-            "summary": "3D printed <a href='https://en.wikipedia.org/wiki/Infinity_mirror' title='Infinity Mirror' target='_blank'>infinity mirror</a> and prototyping build process. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#451' title='User Experience Prototyping Techniques' target='_blank'>HCDE 451</a>.",
-            "date": "Winter 2018",
-            "team": 1
         }
     ]
 }
