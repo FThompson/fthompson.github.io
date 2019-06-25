@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const production = process.argv.indexOf('-p') !== -1;
 
 module.exports = {
   entry: `${__dirname}/src/index.js`,
@@ -19,6 +20,12 @@ module.exports = {
       {
         test: /\.css$/, use: [ 'style-loader', 'css-loader' ]
       }
-    ],
-  }
+    ]
+  },
+
+  plugins: !production ? [] : [
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    })
+  ]
 };
