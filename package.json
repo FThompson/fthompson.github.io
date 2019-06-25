@@ -17,7 +17,7 @@
     "start": "concurrently gulp \"webpack-dev-server --devtool eval-source-map --history-api-fallback --open\"",
     "build": "concurrently \"gulp build\" \"webpack -p\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d dist"
+    "deploy": "gh-pages -b master"
   },
   "eslintConfig": {
     "extends": "react-app"
