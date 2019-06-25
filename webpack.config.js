@@ -21,13 +21,5 @@ module.exports = {
         test: /\.css$/, use: [ 'style-loader', 'css-loader' ]
       }
     ],
-  },
-
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: `${__dirname}/index.html`,
-      filename: `${__dirname}/index.html`,
-      favicon: `${__dirname}/static/favicons/favicon.ico`
-    })
-  ],
+  }
 };
