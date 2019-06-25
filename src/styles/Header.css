@@ -1,0 +1,25 @@
+header {
+  background-image: url('/static/images/stevens-pass-pano.jpg');
+  background-size: cover;
+  background-position: center 55%;
+  height: 17vh;
+  min-height: 10rem;
+  width: 100vw;
+}
+
+#profile {
+  display: block;
+  background-image: url('/static/images/finn-informal-profile.jpg');
+  background-size: cover;
+  width: 15rem;
+  height: 15rem;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin: -7.5rem auto 0 auto;
+}
+
+#profile.small {
+  width: 8rem;
+  height: 8rem;
+  margin-top: -7rem;
+}

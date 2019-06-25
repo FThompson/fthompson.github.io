@@ -6,7 +6,7 @@ import Footer from './Footer';
 import Home from './Home';
 import ProjectPage from './ProjectPage';
 
-import './../styles/portfolio.css';
+import '../styles/App.css';
 
 export default class App extends React.Component {
   render() {

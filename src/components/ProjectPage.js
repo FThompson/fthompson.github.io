@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './Header';
 
+import '../styles/ProjectPage.css';
+
 export default class ProjectPage extends React.Component {
   constructor(props) {
     super(props);

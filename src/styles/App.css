@@ -1,0 +1,18 @@
+:root {
+  --dark-text: #001749;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: local('Open Sans'), url('/static/fonts/OpenSans-Regular.ttf') format('ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  min-width: 22.5rem;
+  overflow-x: hidden;
+}

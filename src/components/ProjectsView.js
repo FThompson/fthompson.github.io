@@ -2,6 +2,8 @@ import React from 'react';
 import Project from './Project';
 import { projects } from './../projects/projects.json';
 
+import '../styles/ProjectsView.css';
+
 export default class ProjectsView extends React.Component {
   constructor(props) {
     super(props);

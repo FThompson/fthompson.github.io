@@ -1,0 +1,10 @@
+footer {
+  text-align: center;
+  font-size: 70%;
+  color: #666;
+  margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+footer > div:not(:first-child) {
+  margin-top: 0.5rem;
+}

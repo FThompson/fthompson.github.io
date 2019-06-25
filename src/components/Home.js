@@ -3,6 +3,8 @@ import AboutMe from './AboutMe';
 import ProjectsView from './ProjectsView';
 import Header from './Header';
 
+import '../styles/Home.css';
+
 export default class Home extends React.Component {
   componentWillMount() {
     document.title = 'Finn Thompson - Portfolio';
