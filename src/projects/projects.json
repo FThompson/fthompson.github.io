@@ -10,7 +10,7 @@
                 "C/C++",
                 "Python"
             ],
-            "content": "capstone.md",
+            "content": "capstone",
             "summary": "Team capstone project for Human-Centered Design & Engineering, sponsored by Seattle Children's Hospital. We designed and developed a physical device to track post-surgical patients' opioid prescriptions and notify them when a new dose of medication is ready.",
             "date": "Winter 2018 - Spring 2018",
             "team": 4,
@@ -26,7 +26,7 @@
                 "Chrome"
             ],
             "summary": "Chrome plugin designed to provide a user-friendly interface for controlling Netflix with a gamepad or game controller, allowing users to enjoy Netflix in a browser without sitting at their PC. Functional work in progress.",
-            "date": "Winter 2019 - Spring 2019",
+            "date": "Winter 2019 - Summer 2019",
             "team": 1,
             "github": "https://github.com/FThompson/NetflixController"
         },
@@ -39,7 +39,7 @@
                 "JavaScript",
                 "Python"
             ],
-            "content": "dominion-randomizer.md",
+            "content": "dominion-randomizer",
             "summary": "Web application that randomizes card sets, based on user-specified parameters, for the card game <a href='https://en.wikipedia.org/wiki/Dominion_(card_game)' title='Dominion' target='_blank'>Dominion</a> that requires players to randomly pick ten of up to hundreds of possible cards during game setup.",
             "date": "Fall 2018 - Winter 2019",
             "team": 1,
@@ -53,7 +53,7 @@
                 "UI/UX",
                 "Java"
             ],
-            "content": "uw-class-seats.md",
+            "content": "uw-class-seats",
             "summary": "Java 8 GUI application designed to listen to a user's email inbox for open seat notifications on full classes and register the user for the open seat, dropping conflicting courses if specified.",
             "date": "Fall 2015",
             "team": 1
@@ -155,7 +155,7 @@
                 "Java",
                 "UI/UX"
             ],
-            "content": "gene-ontology.md",
+            "content": "gene-ontology",
             "summary": "Java 7 GUI application implementing a term frequency–inverse document frequency function for searching a gene/symptom database and displaying relevant results. Created during a research internship at Scripps Translational Science Institute.",
             "date": "Spring 2014",
             "team": 1
@@ -253,7 +253,7 @@
                 "UI/UX",
                 "MySQL"
             ],
-            "content": "textube.md",
+            "content": "textube",
             "summary": "Java desktop application that offered keyboard shortcuts to upload text/files to my custom URL shortening, file hosting server or evaluate simple mathematical expressions from the clipboard. Defunct.",
             "date": "Spring 2012",
             "team": 1
@@ -265,7 +265,7 @@
                 "Programming",
                 "C/C++"
             ],
-            "content": "laser-gun.md",
+            "content": "laser-gun",
             "summary": "Arduino-powered prototype designed to communicate with other Arduinos via <a href='https://en.wikipedia.org/wiki/XBee' title='XBee' target='_blank'>XBee</a> radio modules to create a laser tag game. Final project for <a href='https://www.hcde.washington.edu/bs/course-descriptions#439' title='Physical Computing' target='_blank'>HCDE 439</a>.",
             "date": "Spring 2018",
             "team": 2

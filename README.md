@@ -1,13 +1,7 @@
-My web portfolio.
+My web portfolio, made with React and hosted on GitHub Pages: https://finnthompson.me
 
-## TODO
+Source code exists in the `src` folder. Most files outside of this folder are either used for configuration or are products of running the build script.
 
-* Complete project pages
-* Better URLs (avoid hashbang)
-* Grid system to allow for 'View more' on projects
-* Sort/filter projects
-* Professional profile picture
-* Create project entry for RS world map web builder
-* Finish project pages
-  * Netflix Gamepad Interface (+ link to app on Chrome store)
-  * Crypto Mining Tax Calc (+ host script somewhere w/ front end)
+Project page content is written in Markdown and converted to HTML at build time using gulp.
+
+Github Pages React single-page application scaffolding thanks to https://github.com/rafrex/spa-github-pages

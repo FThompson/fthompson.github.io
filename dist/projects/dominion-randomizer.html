@@ -1,0 +1,26 @@
+<h1>Dominion Kingdom Randomizer</h1>
+<blockquote>
+  <p>Dominion is a deck-building card game created by Donald X. Vaccarino and published by Rio Grande Games. Each player uses a separate deck of cards and draw their hands from their own decks, not others'. Players use the cards in their hands to either perform actions or buy select cards from a common pool of card stacks. The player with the most victory points at the end wins. The game has a "light" medieval theme, with card names that reference pre-industrial, monarchical, and feudal social structures.</p>
+  <p>– <a href="https://en.wikipedia.org/wiki/Dominion_(card_game)" target="_blank">WikiPedia article on Dominion</a></p>
+</blockquote>
+<h2>Motivation</h2>
+<p>Setup for a game of Dominion involves randomly picking 10 cards that make up the set of cards from which players can buy cards for that game. Each Dominion expansion box adds an additional ~25 card options, so as you purchase additional expansions, it becomes increasingly difficult to shuffle hundreds of possible cards to select just 10 for a game.</p>
+<h2>Solution</h2>
+<p>To address this problem, I created an application to randomize the set of cards based on several user-customized parameters:</p>
+<ul>
+<li>Which expansions to use</li>
+<li>Number of cards to draw from each expansion, or relative weights to apply when randomizing</li>
+<li>Number of cards and special cards total to draw</li>
+<li>Specific cards to include or exclude</li>
+<li>Specific card types to exclude</li>
+</ul>
+<p>To gather card data, I wrote <a href="https://github.com/FThompson/DominionRandomizer/blob/master/fetch_cards.py" target="_blank">a scraper program</a> that parses the Dominion Wiki's <a href="http://wiki.dominionstrategy.com/index.php/List_of_cards" target="_blank">List of Cards</a> into a JSON file.</p>
+<p>I first wrote <a href="https://github.com/FThompson/DominionRandomizer" target="_blank">a version of this program in Python</a>, taking randomization parameters as program arguments and outputting selected cards to the console. Desiring something easier to share with my friends and anyone else interested, I then rewrote <a href="https://github.com/dominion-randomizer/dominion-randomizer.github.io" target="_blank">the application in JavaScript</a> and designed a user interface for selecting randomization options. The live project can be found <a href="https://dominion-randomizer.github.io/" target="_blank">here, hosted on GitHub Pages</a>.</p>
+<p><img src="/static/projects/dominion-randomizer/randomizer-ui.png" alt="Web randomizer UI" /></p>
+<p><img src="/static/projects/dominion-randomizer/example-output.jpg" alt="Example output" /></p>
+<h2>Assets</h2>
+<ul>
+<li><a href="https://dominion-randomizer.github.io/" target="_blank">Live Randomizer Web Application</a></li>
+<li><a href="https://github.com/dominion-randomizer/dominion-randomizer.github.io" target="_blank">Web Application Code Repository (JavaScript / HTML / CSS)</a></li>
+<li><a href="https://github.com/FThompson/DominionRandomizer" target="_blank">Console Application Code Repository (Python)</a></li>
+</ul>

@@ -166,6 +166,10 @@ header {
     max-height: 60vh;
 }
 
+#projects-container {
+    margin: 0 0.5rem;
+}
+
 #projects-label {
     margin-bottom: 0;
     color: var(--dark-text);
@@ -176,7 +180,7 @@ header {
 }
 
 #project-filters input {
-    margin-left: 0.75rem;
+    margin: 0 0.4rem 0 1rem;
 }
 
 /* TODO: reimplement with grid, and different amount of columns based on screen size rules */
@@ -308,4 +312,8 @@ footer {
 
 footer > div:not(:first-child) {
     margin-top: 0.5rem;
+}
+
+#page404 {
+    text-align: center;
 }

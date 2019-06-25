@@ -1,0 +1,29 @@
+<h1>Laser Tag Gun Prototype</h1>
+<p><img id='laser-gun' src='/static/projects/laser-gun/laser-gun.jpg' alt='Laser Gun Prototype'>
+<em>Laser tag gun prototype, with a view of the internal components.</em></p>
+<h2>Motivation</h2>
+<p>For the HCDE 439 Physical Computing final project, students were required to work in pairs in a team of a few other pairs (i.e. 3-4 pairs working together) to create a system of different Arduino-powered components communicating over XBee radio modules.</p>
+<p>My team decided to create a laser tag game, where me and my partner created the laser gun and other pairs in our team made the body vest, charging station, and communication center modules. We wanted to design something fun yet simple enough that it could be built within a couple weeks.</p>
+<h2>Solution</h2>
+<p>We incorporated several sensors and display components into the laser gun:</p>
+<ul>
+<li>IR LED array with 4 IR LEDs</li>
+<li>LCD display showing ammo and firing mode</li>
+<li>Out-of-ammo indicator LED</li>
+<li>Shot indicator LED</li>
+<li>Tilt sensor to detect reload by tilting back gun</li>
+<li>Hall sensor to detect proximity to charging station's magnet</li>
+<li>XBee for reporting to comms center and receiving player hit and game start/finish alerts</li>
+<li>USB battery pack for portability</li>
+</ul>
+<p><img src="/static/projects/laser-gun/internal.jpg" alt="Assembled laser gun internals" />
+<em>Internal view of the assembled laser gun.</em></p>
+<p>My role included soldering and assembling components and leading the programming of the Arduino Nano in the laser gun. I also researched IR LEDs and power consumption limits with which I compared the effective range of a single strong IR LED versus an array of lower power IR LEDs, finding that the array could be detected by the body vest from a further distance.</p>
+<p><img src="/static/projects/laser-gun/soldered-parts.jpg" alt="Component protoboards" />
+<em>Soldered protoboard components for the IR LEDs and the fire / firing mode buttons.</em></p>
+<h2>Assets</h2>
+<ul>
+<li><a href="/static/projects/laser-gun/Laser%20Tag%20Gun%20Code.zip" target="_blank">Laser Gun Arduino Code (ZIP)</a></li>
+<li><a href="/static/projects/laser-gun/Laser%20Gun%20Schematic.pdf" target="_blank">Laser Gun Schematic (PDF)</a></li>
+<li><a href="/static/projects/laser-gun/Laser%20Tag%20Project%20Overview.pdf" target="_blank">Laser Tag Project Overview</a></li>
+</ul>

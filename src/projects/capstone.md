@@ -1,4 +1,4 @@
-# Smart Opioid Prescription Management Device Capstone
+# Smart Prescription Management Device Capstone
 
 For my Human-Centered Design & Engineering (HCDE) capstone project, I worked with a team of three other HCDE students to prototype a smart device and companion app to help postoperative patients follow their pain management prescriptions as they go through the postoperative recovery process. Our project was sponsored by The University of Washington and Seattle Children's Hospital, including Dr. Lance Patak and resident doctors Stuart Solomon and Jacob Gross.
 
@@ -79,7 +79,7 @@ Once we had conducted all of the sessions, we translated the data into key findi
 ![Companion App Recommendations](/static/projects/capstone/app-design-recs.png)
 *Companion app design recommendations.*
 
-[See the full Evaluation phase report here.](http://127.0.0.1:5500/static/projects/capstone/Milestone%203%20Report%20-%20Evaluate.pdf)
+[See the full Evaluation phase report here.](/static/projects/capstone/Milestone%203%20Report%20-%20Evaluate.pdf)
 
 ### Second Prototype (Raspberry Pi & Python)
 

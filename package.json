@@ -1,0 +1,56 @@
+{
+  "name": "fthompson.github.io",
+  "version": "1.1.0",
+  "description": "Finn Thompson's portfolio of work.",
+  "homepage": "https://finnthompson.me/",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FThompson/fthompson.github.io.git"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1"
+  },
+  "scripts": {
+    "start": "concurrently gulp \"webpack-dev-server --devtool eval-source-map --history-api-fallback --open\"",
+    "build": "concurrently \"gulp build\" \"webpack -p\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "concurrently": "^4.1.0",
+    "css-loader": "^3.0.0",
+    "del": "^4.1.1",
+    "gh-pages": "^2.0.1",
+    "gulp": "^4.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "showdown": "^1.9.0",
+    "style-loader": "^0.23.1",
+    "through2": "^3.0.1",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
