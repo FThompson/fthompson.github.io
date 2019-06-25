@@ -75,7 +75,7 @@ class ProjectFilter extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
+      <span className='project-filter'>
         <input type='radio'
           name='filter'
           id={this.props.id}
@@ -84,7 +84,7 @@ class ProjectFilter extends React.Component {
           defaultChecked={this.props.id === 'all'}
         />
         <label htmlFor={this.props.id}>{this.props.label}</label>
-      </React.Fragment>
+      </span>
     );
   }
 }
