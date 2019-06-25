@@ -15,9 +15,7 @@
   },
   "scripts": {
     "start": "concurrently gulp \"webpack-dev-server --devtool eval-source-map --history-api-fallback --open\"",
-    "build": "concurrently \"gulp build\" \"webpack -p\"",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d ."
+    "build": "concurrently \"gulp build\" \"webpack -p\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,7 +40,6 @@
     "concurrently": "^4.1.0",
     "css-loader": "^3.0.0",
     "del": "^4.1.1",
-    "gh-pages": "^2.0.1",
     "gulp": "^4.0.2",
     "html-loader": "^0.5.5",
     "showdown": "^1.9.0",
