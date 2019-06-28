@@ -178,7 +178,8 @@
                 "Programming",
                 "UI/UX",
                 "HTML/CSS",
-                "JavaScript"
+                "JavaScript",
+                "React"
             ],
             "summary": "This website, created to showcase my portfolio of work. Project page contents are written in Markdown and loaded into a single-page application. Hosted on GitHub Pages.",
             "date": "Spring 2019",
