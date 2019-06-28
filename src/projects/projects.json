@@ -17,7 +17,7 @@
             "github": "https://github.com/FThompson/SmartPCA-Capstone-v2"
         },
         {
-            "title": "Netflix Gamepad Interface Plugin",
+            "title": "Netflix Controller Plugin",
             "tags": [
                 "Programming",
                 "UI/UX",
@@ -25,9 +25,10 @@
                 "JavaScript",
                 "Chrome"
             ],
-            "summary": "Chrome plugin designed to provide a user-friendly interface for controlling Netflix with a gamepad or game controller, allowing users to enjoy Netflix in a browser without sitting at their PC. Functional work in progress.",
+            "summary": "Chrome plugin designed to provide a user-friendly interface for controlling Netflix with a gamepad or game controller, allowing users to enjoy Netflix in a browser without sitting at their PC.",
             "date": "Winter 2019 - Summer 2019",
             "team": 1,
+            "external": "https://chrome.google.com/webstore/detail/netflix-controller/kjgfkjidgcfgbabbhjephchohcghcdkf",
             "github": "https://github.com/FThompson/NetflixController"
         },
         {
