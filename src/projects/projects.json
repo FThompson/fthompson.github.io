@@ -67,7 +67,7 @@
                 "API",
                 "Tech Writing"
             ],
-            "summary": "JavaScript library providing a standardized way of handling gamepads, gamepad events, and gamepad button icons. This library provides support for button and joystick events that the built-in HTML5 gamepads API does not offer.",
+            "summary": "JavaScript library providing a standardized way of handling gamepads, gamepad events, and gamepad button icons. This library provides support for button and joystick events that the built-in HTML5 gamepads API does not offer. Available on npm.",
             "date": "Winter 2019",
             "team": 1,
             "github": "https://github.com/FThompson/Gamepads.js"
@@ -80,7 +80,7 @@
                 "API",
                 "Tech Writing"
             ],
-            "summary": "JavaScript library for preserving HTML form data across multiple sessions by saving data to web storage.",
+            "summary": "JavaScript library for preserving HTML form data across multiple sessions by saving data to web storage. Available on npm.",
             "date": "Winter 2019",
             "team": 1,
             "github": "https://github.com/FThompson/FormPersistence.js"
