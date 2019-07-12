@@ -80,7 +80,7 @@
                 "API",
                 "Tech Writing"
             ],
-            "summary": "JavaScript library for preserving HTML form data across multiple sessions by saving data to web storage. Published on npm. Featured in <a href='https://javascriptweekly.com/issues/444' title='JavaScript Weekly Issue 444>JavaScript Weekly</a>.",
+            "summary": "JavaScript library for preserving HTML form data across multiple sessions by saving data to web storage. Published on npm. Featured in <a href='https://javascriptweekly.com/issues/444' title='JavaScript Weekly Issue 444' target='_blank'>JavaScript Weekly</a>.",
             "date": "Winter 2019 - Summer 2019",
             "team": 1,
             "github": "https://github.com/FThompson/FormPersistence.js"
