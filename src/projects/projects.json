@@ -48,6 +48,20 @@
             "github": "https://github.com/dominion-randomizer/dominion-randomizer.github.io"
         },
         {
+            "title": "FormPersistence.js",
+            "tags": [
+                "Programming",
+                "JavaScript",
+                "Jest",
+                "API",
+                "Tech Writing"
+            ],
+            "summary": "JavaScript library for preserving HTML form data across multiple sessions by saving data to web storage. Published on npm. Featured in <a href='https://javascriptweekly.com/issues/444' title='JavaScript Weekly Issue 444' target='_blank'>JavaScript Weekly</a>.",
+            "date": "Winter 2019 - Summer 2019",
+            "team": 1,
+            "github": "https://github.com/FThompson/FormPersistence.js"
+        },
+        {
             "title": "UW Course Seat Claimer",
             "tags": [
                 "Programming",
@@ -71,20 +85,6 @@
             "date": "Winter 2019",
             "team": 1,
             "github": "https://github.com/FThompson/Gamepads.js"
-        },
-        {
-            "title": "FormPersistence.js",
-            "tags": [
-                "Programming",
-                "JavaScript",
-                "Jest",
-                "API",
-                "Tech Writing"
-            ],
-            "summary": "JavaScript library for preserving HTML form data across multiple sessions by saving data to web storage. Published on npm. Featured in <a href='https://javascriptweekly.com/issues/444' title='JavaScript Weekly Issue 444' target='_blank'>JavaScript Weekly</a>.",
-            "date": "Winter 2019 - Summer 2019",
-            "team": 1,
-            "github": "https://github.com/FThompson/FormPersistence.js"
         },
         {
             "title": "Chrome Live Storage Module",
