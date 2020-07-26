@@ -7,7 +7,7 @@ export default class AboutMe extends React.Component {
     return (
       <React.Fragment>
         <h1 id='name'>Hi. I'm <span>Finn Thompson</span>.</h1>
-        <h2 id='specialties'>I'm a software developer and technical writer.</h2>
+        <h2 id='specialties'>I write code and documentation.</h2>
         <div id='links'>
           <PrimaryLink
             url='https://github.com/FThompson'
