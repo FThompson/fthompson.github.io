@@ -42,7 +42,7 @@
     "del": "^4.1.1",
     "gulp": "^4.0.2",
     "html-loader": "^0.5.5",
-    "showdown": "^1.9.0",
+    "showdown": "^1.9.1",
     "style-loader": "^0.23.1",
     "through2": "^3.0.1",
     "webpack": "^4.35.0",
